@@ -5,17 +5,18 @@
   sin espacios ni signos; ejemplo México: 5215512345678.
 */
 const PROFILE = {
-  name: "Tu Nombre",
-  title: "Tu profesión o descripción",
-  location: "México",
-  bio: "Conectemos. Aquí puedes añadir una breve presentación personal.",
-  photo: "assets/avatar.svg",
-  phone: "+52 55 1234 5678",
-  email: "hola@ejemplo.com",
-  whatsapp: "5215512345678",
-  instagram: "https://www.instagram.com/",
-  linkedin: "https://www.linkedin.com/",
-  tiktok: "https://www.tiktok.com/@",
+  name: "Diego Plascencia",
+  title: "Agente de renta de vehículos y camionetas",
+  location: "Guadalajara ",
+  bio: "Tu próximo destino comienza aquí.🚘",
+
+  photo:"assets/perfil.jpg",
+  phone: "+523325512476",
+  email: "ecorent968@gmail.com",
+  whatsapp: "+523325512476",
+  instagram: "https://www.instagram.com/ecorentacargdl?srtk=bHhxd2F4aGYybjdq",
+  facebook: "https://www.facebook.com/share/19idzLDyum/",
+  tiktok: "https://www.tiktok.com/@eco.rent.a.car4?_r=1&_t=ZS-9AmDdN2Acke",
   // Si no deseas mostrar un enlace, déjalo como cadena vacía: ""
 };
 
@@ -89,7 +90,7 @@ function initProfile() {
   setLink("whatsapp-link", whatsappNumber ? `https://wa.me/${whatsappNumber}` : "");
   setLink("instagram-link", PROFILE.instagram);
   setLink("linkedin-link", PROFILE.linkedin);
-  setLink("tiktok-link", PROFILE.tiktok);
+  setLink("facebook-link", PROFILE.facebook);
   setLink("email-link", PROFILE.email ? `mailto:${PROFILE.email}` : "");
 
   createVCard();
