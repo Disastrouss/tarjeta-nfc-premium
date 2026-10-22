@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0c">
+  <meta name="description" content="Tarjeta digital de contacto premium.">
+  <title>Tarjeta digital | Perfil</title>
+  <link rel="icon" href="assets/avatar.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <article class="profile-card" aria-labelledby="profile-name">
+      <div class="top-line" aria-hidden="true"><span></span><span class="brand-mark">NFC / DIGITAL CARD</span><span></span></div>
+
+      <div class="profile-header">
+        <div class="avatar-frame">
+          <img id="profile-photo" src="assets/avatar.svg" alt="Avatar del perfil">
+          <span class="online-dot" aria-hidden="true"></span>
+        </div>
+        <p class="eyebrow">CONECTA · COMPARTE · CRECE</p>
+        <h1 id="profile-name">Tu Nombre</h1>
+        <p id="profile-title" class="profile-title">Tu profesión o descripción</p>
+        <p id="profile-location" class="location"></p>
+        <p id="profile-bio" class="bio">Una breve presentación personal aparecerá aquí.</p>
+      </div>
+
+      <section class="actions" aria-label="Acciones de contacto">
+        <a id="save-contact" class="button button-primary" href="#" download="contacto.vcf">
+          <span class="button-icon" aria-hidden="true">＋</span>
+          <span>Guardar contacto</span>
+          <span class="button-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a id="whatsapp-link" class="button social-link" href="#" target="_blank" rel="noopener noreferrer">
+          <span class="social-icon" aria-hidden="true">W</span><span>WhatsApp</span><span class="button-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a id="instagram-link" class="button social-link" href="#" target="_blank" rel="noopener noreferrer">
+          <span class="social-icon" aria-hidden="true">◎</span><span>Instagram</span><span class="button-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a id="linkedin-link" class="button social-link" href="#" target="_blank" rel="noopener noreferrer">
+          <span class="social-icon" aria-hidden="true">in</span><span>LinkedIn</span><span class="button-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a id="tiktok-link" class="button social-link" href="#" target="_blank" rel="noopener noreferrer">
+          <span class="social-icon" aria-hidden="true">♪</span><span>TikTok</span><span class="button-arrow" aria-hidden="true">↗</span>
+        </a>
+        <a id="email-link" class="button social-link" href="#">
+          <span class="social-icon" aria-hidden="true">✉</span><span>Correo electrónico</span><span class="button-arrow" aria-hidden="true">↗</span>
+        </a>
+      </section>
+
+      <footer class="profile-footer">
+        <div class="footer-rule"></div>
+        <p class="footer-brand"><span class="gold-dot"></span> CONTACTO DIGITAL</p>
+        <p class="footer-note">Acerca tu teléfono a la tarjeta NFC para conectar</p>
+      </footer>
+    </article>
+    <p class="page-caption">TARJETA DIGITAL <span>•</span> DISEÑO PREMIUM</p>
+    <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
+  </main>
+</body>
+</html>
