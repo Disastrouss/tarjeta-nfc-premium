@@ -10,7 +10,7 @@ const PROFILE = {
   location: "Guadalajara ",
   bio: "Tu próximo destino comienza aquí.🚘",
 
-  photo:"assets/perfil.jpg",
+  photo: "assets/perfil.JPG",
   phone: "+523325512476",
   email: "ecorent968@gmail.com",
   whatsapp: "+523325512476",
