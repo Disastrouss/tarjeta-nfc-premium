@@ -10,13 +10,13 @@ const PROFILE = {
   location: "Guadalajara ",
   bio: "Tu próximo destino comienza aquí.🚘",
 
-  photo: "assets/perfil.JPG",
+  photo: "./perfil.JPG",
   phone: "+523325512476",
   email: "ecorent968@gmail.com",
   whatsapp: "+523325512476",
   instagram: "https://www.instagram.com/ecorentacargdl?srtk=bHhxd2F4aGYybjdq",
   facebook: "https://www.facebook.com/share/19idzLDyum/",
-  tiktok: "https://www.tiktok.com/@eco.rent.a.car4?_r=1&_t=ZS-9AmDdN2Acke",
+ tiktok: "https://www.tiktok.com/@eco.rent.a.car",
   // Si no deseas mostrar un enlace, déjalo como cadena vacía: ""
 };
 
