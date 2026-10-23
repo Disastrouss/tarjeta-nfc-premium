@@ -80,17 +80,22 @@ function initProfile() {
   setText("profile-location", PROFILE.location);
   setText("profile-bio", PROFILE.bio, "Conectemos.");
 
-  const photo = byId("profile-photo");
-  if (photo && PROFILE.photo) {
-    photo.src = PROFILE.photo;
-    photo.alt = `Fotografía de ${PROFILE.name || "la persona"}`;
-  }
+const photo = byId("profile-photo");
+
+if (photo && PROFILE.photo) {
+  photo.src = PROFILE.photo;
+  photo.alt = `Fotografía de ${PROFILE.name || "la persona"}`;
+
+  photo.onerror = () => {
+    console.error("No se pudo cargar la fotografía:", photo.src);
+  };
+}
 
   const whatsappNumber = (PROFILE.whatsapp || "").replace(/\D/g, "");
   setLink("whatsapp-link", whatsappNumber ? `https://wa.me/${whatsappNumber}` : "");
   setLink("instagram-link", PROFILE.instagram);
-  setLink("linkedin-link", PROFILE.linkedin);
   setLink("facebook-link", PROFILE.facebook);
+  setLink("tiktok-link", PROFILE.tiktok);
   setLink("email-link", PROFILE.email ? `mailto:${PROFILE.email}` : "");
 
   createVCard();
