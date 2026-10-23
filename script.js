@@ -16,7 +16,7 @@ const PROFILE = {
   whatsapp: "+523325512476",
   instagram: "https://www.instagram.com/ecorentacargdl?srtk=bHhxd2F4aGYybjdq",
   facebook: "https://www.facebook.com/share/19idzLDyum/",
- tiktok: "https://www.tiktok.com/@eco.rent.a.car",
+ tiktok: "https://www.tiktok.com/@eco.rent.a.car4?_r=1",
   // Si no deseas mostrar un enlace, déjalo como cadena vacía: ""
 };
 
